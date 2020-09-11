@@ -1,0 +1,23 @@
+[package]
+name = "poly_pong"
+version = "0.1.0"
+authors = ["Jakub Jendryka <jendryka.j@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+actix-web = "2.0"
+actix-rt = "1.0"
+actix-files = "0.2"
+listenfd = "0.3"
+tokio = { version = "0.2", features = ["sync"] }
+askama = "0.10"
+serde = "1.0"
+env_logger = "0.7"
+rand = "0.7"
+actix-session = "0.3"
+log = "0.4"
+actix-web-actors = "2.0"
+actix = "0.9"
+
+[build-dependencies]
+askama = "0.10"
